@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oxygen:wght@300&family=Quicksand&display=swap');@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oxygen:wght@300&family=Quicksand&family=Roboto:wght@300&display=swap');
+html {
+  overflow-x: hidden;
+}
+@media only screen and (max-width: 350) {
+  html {
+    overflow-x: hidden;
+  }
+}
+#root {
+  max-width: 100%;
+}
+.particles {
+  position: fixed;
+  right: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.header-color {
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* fallback for old browsers */
+  opacity: 0.6;
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header-color :hover {
+  color: yellow;
+  
+}
+.menu_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.home-page:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  background-color: #243b55;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-position: 50% 0;
+  z-index: -1;
+}
+.profile-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  box-shadow:   rgb(238, 169, 78);
+}
+.name-css {
+  font-family: 'Roboto';
+  font-size: 4rem;
+  font-weight: 100;
+  color: rgb(238, 169, 78);
+  text-align: center;
+}
+.surname {
+  color: rgb(238, 169, 78);
+}
+.sub-detail {
+  font-family: 'Roboto';
+  color: rgb(250, 249, 248);
+  font-size: 20px;
+  font-weight: 20;
+  text-align: center;
+  margin-top: -25px;
+  letter-spacing: 2px;
+}
+.sub-detail2 {
+  font-family: 'Roboto';
+  color: rgb(238, 223, 22);
+  font-size: 20px;
+  font-weight: 20;
+  text-align: center;
+  margin-top: -25px;
+  letter-spacing: 2px;
+}
+.redes {
+
+color: ivory;
+  font-size: 26px;
+  font-weight: 20;
+  text-align: center;
+  margin-top: -25px;
+  letter-spacing: 2px;
+}
+.listposition {
+  float: right;
+}
+/* ************
+css for About component 
+************** */
+
+.about-css {
+  margin-top: 200px;
+  width: 100%;
+  font-family: 'Roboto';
+}
+
+.head-about {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 50px;
+  color: rgb(238, 169, 78);
+}
+.content-about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 1000px;
+  font-family: 'Roboto';
+}
+@media only screen and (max-width: 1280px) {
+  .content-about {
+    width: auto;
+  }
+}
+.about-detail1 {
+
+  padding: 20px;
+  opacity: 1;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.about-detail {
+  padding: 20px;
+  opacity: 0.9;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.about-sub-detail {
+  font-size: 15px;
+  opacity: 0.8;
+  font-family: 'Roboto';
+}
+/* **********
+css for eduction component 
+******** */
+.education-detail {
+  padding: 20px;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.bach-course {
+  opacity: 0.8;
+  font-size: 20px;
+}
+.bach-subject {
+  opacity: 0.8;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.bach-date {
+  float: right;
+  opacity: 0.8;
+}
+.jik {
+  margin-left: 70px;
+}
+p i {
+  padding: 20px;
+  opacity: 0.8;
+}
+p i:first-child {
+  color: rgb(231, 218, 38);
+}
+p i:nth-child(2) {
+  color: rgb(231, 218, 38);
+}
+p i:nth-child(3) {
+  color: rgb(231, 218, 38);
+}
+p i:nth-child(4) {
+  color: rgb(231, 218, 38);
+}
+p i:nth-child(6) {
+  color: rgb(231, 218, 38);
+}
+p i:nth-child(5) {
+  color: rgb(231, 218, 38);
+}
+p i:nth-child(7) {
+  color: rgb(231, 218, 38);
+}
+ul li {
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 19px;
+}
+.achievements {
+  padding: 20px;
+  font-size: 19px;
+}
+
+.experience-detail {
+  padding: 30px;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.exp-title {
+  margin-top: -20px;
+}
+.exp-content {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  font-family: 'Roboto';
+} 
+ @media only screen and (max-width: 500px) {
+  .exp-content {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+  }
+}
+.bg_color {
+  background: #4a159e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: block;
+  position: absolute;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  width: 100%;
+  background-position: 100% 0;
+}
+.expbg_color {
+  background-color: rgb(218, 218, 72);
+}
+
+.about_row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30%;
+  margin-bottom: 20%;
+  font-family: 'Roboto';
+}
+.profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100%;
+}
+.contact-about {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto';
+}
+@media only screen and (max-width: 800px) {
+  .about_row {
+    flex-direction: column;
+    margin-top: 75%;
+  }
+  .profile-pic {
+    width: 100%;
+    height: auto;
+  }
+  .new_about {
+    text-align: center;
+  }
+  .contact-about {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.exp_heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: rgb(19, 18, 16);
+}
+.workchips {
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'Roboto';
+  grid-row-gap: 1em;
+}
+.workcard {
+  color: rgb(15, 11, 11);
+  width: 345px;
+  background: #2c3e50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #c7c538,
+    #9c7903
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ced12f,
+    #9c7903
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+@media only screen and (max-width: 800px) {
+  .workchips {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    column-gap: 1rem;
+    grid-row-gap: 2em;
+  }
+}
+@media (min-width: 800px) and (max-width: 1080px) {
+  .workchips {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+.edu_row {
+  width: 100%;
+  margin-top: 30%;
+  font-family: 'Roboto';
+}
+.edulist {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: yellow;
+  font-family: 'Roboto';
+}
+.footer {
+  width: 100%;
+  opacity: 0.7;
+  margin-top: 10%;
+}
+.footer-a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Roboto';
+}
+.footer-a i {
+  padding: 20px;
+  color: rgb(219, 205, 78);
+  font-size: 18px;
+}
+
+.skill_row {
+  width: 100%;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.container {
+  /* Full width */
+  /* Grey background */
+  width: 50%;
+  background-color: rgb(175, 173, 26);
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  /* Add some padding */
+  color: rgb(194, 155, 27); /* White text color */
+  height: 1px;
+}
+.wrapper_skill p {
+  margin-left: 25%;
+  color: white;
+}
+.C {
+  width: 85%;
+  background-color: yellow;
+}
+.JAVA {
+  width: 80%;
+  background-color: yellow;
+}
+.html {
+  width: 90%;
+  background-color: yellow;
+} /* Green */
+.css {
+  width: 80%;
+  background-color: yellow;
+} /* Blue */
+.js {
+  width: 85%;
+  background-color: yellow;
+} /* Red */
+.react {
+  width: 75%;
+  background-color: yellow;
+}
+.node {
+  width: 70%;
+  background-color: yellow;
+}
+.db {
+  width: 65%;
+  background-color: yellow;
+}
+.python {
+  width: 50%;
+  background-color: yellow;
+}
